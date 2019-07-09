@@ -80,7 +80,7 @@ namespace fruitBasketStateMachine
 
         private static void RemoveFruit(FruitItem fruitItem)
         {
-            if (_fruitBasketService.RemvoeFruitItemFromBasket(fruitItem))
+            if (_fruitBasketService.RemoveFruitItemFromBasket(fruitItem))
             {
                 PrintToScreen(string.Format("Removed the following fruit item: {0}", fruitItem.Name));
             }

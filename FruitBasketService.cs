@@ -10,7 +10,7 @@ namespace fruitBasketStateMachine
     {
         bool AddFruitToBasket(FruitItem fruitItem);
 
-        bool RemvoeFruitItemFromBasket(FruitItem fruitItem);
+        bool RemoveFruitItemFromBasket(FruitItem fruitItem);
 
         FruitBasket GetCurrentBasketContents();
     }
@@ -40,7 +40,7 @@ namespace fruitBasketStateMachine
             return _fruitBasketState.Context;
         }
 
-        public bool RemvoeFruitItemFromBasket(FruitItem fruitItem)
+        public bool RemoveFruitItemFromBasket(FruitItem fruitItem)
         {
             bool result = false;
 
